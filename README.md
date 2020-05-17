@@ -33,13 +33,17 @@ API Endpoints:
 
 How to Install and Run the App:
 
-    Setup Node (Version) >= 8.10 and npm (Version) >= 5.6 on your machine
+    Setup Node (Version) >= 8.10 and npm (Version) >= 5.6 on your machine Yarn Installed (If you use yarn), Mongodb installed
     Clone the Repository from this URL https://github.com/balaji-kamalesan-au3/online-learning-platform.git
     To clone run the following command
         git clone https://github.com/balaji-kamalesan-au3/online-learning-platform.git
     Navigate inside the cloned directory
     Run the following commands 
-        npm install
-        npm run start
+        npm install or yarn install (Anyone as per your packagemanger need),
+        cd client
+        npm install or yarn install (Anyone as per your packagemanger need),
+        cd ..
+        npm run dev or yarn run dev (Anyone as per your packagemanger need)
+        
     This will start the app for you 
     If you face any problem please reach me through +91 8838159833
